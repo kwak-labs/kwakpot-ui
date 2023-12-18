@@ -134,7 +134,6 @@
 import { useWallet, useAddress, useTransactions } from '../composables/useState';
 import gameConfig from '../config/game.json';
 import walletConfig from '../config/wallet.json';
-import { debounce } from 'lodash';
 import { SigningStargateClient } from '@cosmjs/stargate';
 
 let wallet = useWallet();
