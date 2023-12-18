@@ -1,0 +1,6 @@
+{
+  "chainId": "elystestnet-1",
+  "rpcUrl": "https://elys-testnet-rpc.itrocket.net",
+  "denom": "uelys",
+  "units": 1000000
+}
