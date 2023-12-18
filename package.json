@@ -15,7 +15,6 @@
 	},
 	"dependencies": {
 		"@cosmjs/stargate": "^0.32.1",
-		"@nuxt/webpack-builder": "^3.8.2",
 		"@nuxtjs/tailwindcss": "^6.10.1",
 		"arweave": "^1.14.4",
 		"daisyui": "^4.4.19",
