@@ -3054,7 +3054,7 @@ esbuild@^0.18.10:
     "@esbuild/win32-ia32" "0.18.20"
     "@esbuild/win32-x64" "0.18.20"
 
-esbuild@^0.19.6, esbuild@^0.19.8:
+esbuild@^0.19.3, esbuild@^0.19.6, esbuild@^0.19.8:
   version "0.19.9"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.19.9.tgz#423a8f35153beb22c0b695da1cd1e6c0c8cdd490"
   integrity sha512-U9CHtKSy+EpPsEBa+/A2gMs/h3ylBC0H0KSqIg7tpztHerLi6nrrcoUJAkNCEPumx8yJ+Byic4BVwHgRbN0TBg==
@@ -5898,7 +5898,7 @@ rollup@^3.27.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rollup@^4.6.0:
+rollup@^4.2.0, rollup@^4.6.0:
   version "4.9.1"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-4.9.1.tgz#351d6c03e4e6bcd7a0339df3618d2aeeb108b507"
   integrity sha512-pgPO9DWzLoW/vIhlSoDByCzcpX92bKEorbgXuZrqxByte3JFk2xSW2JEeAcyLc9Ru9pqcNNW+Ob7ntsk2oT/Xw==
@@ -6868,7 +6868,7 @@ vite-plugin-vue-inspector@^4.0.2:
     kolorist "^1.8.0"
     magic-string "^0.30.4"
 
-"vite@^3.0.0 || ^4.0.0", vite@^4.4.9, vite@^4.5.0:
+"vite@^3.0.0 || ^4.0.0", vite@^4.5.0:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.5.1.tgz#3370986e1ed5dbabbf35a6c2e1fb1e18555b968a"
   integrity sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==
@@ -6878,6 +6878,17 @@ vite-plugin-vue-inspector@^4.0.2:
     rollup "^3.27.1"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vite@^5.0.10:
+  version "5.0.10"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-5.0.10.tgz#1e13ef5c3cf5aa4eed81f5df6d107b3c3f1f6356"
+  integrity sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==
+  dependencies:
+    esbuild "^0.19.3"
+    postcss "^8.4.32"
+    rollup "^4.2.0"
+  optionalDependencies:
+    fsevents "~2.3.3"
 
 vm-browserify@^1.0.1:
   version "1.1.2"
