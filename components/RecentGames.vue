@@ -50,6 +50,7 @@ onMounted(async () => {
 });
 
 async function loadGames() {
+	allGames.value = [];
 	let games = await (
 		await $fetch(gameConfig.arweaveGateway + '/graphql', {
 			body: JSON.stringify({
