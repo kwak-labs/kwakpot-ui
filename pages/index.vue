@@ -164,7 +164,7 @@ onMounted(async () => {
 
 async function loadData() {
 	game = await $fetch(`${gameConfig.api}/game`);
-	transactions.value = (await $fetch(`${gameConfig.api}/transactions`)).reverse();
+	transactions.value = await $fetch(`${gameConfig.api}/transactions`);
 
 	totalPotNumber.value = game.totalPot / gameConfig.denom;
 	ticketPrice.value = game.ticketPrice; // Fetches the current ticket price (denominated)
